@@ -49,6 +49,7 @@ tail - displays last part of file
 less - brings text up in page form
 mkdir - make a new directory
 mv - move something to another directory, can be used to rename something as well
+touch - creates a blank file
 
 Flags:
 -l: long form alphabetically
@@ -61,23 +62,3 @@ Arguments:
 | - output of program to another program
 > - output of program to a file
 >> - out put to existing file and append information
-
-Git steps:
-git init - add .git repository to commit files
-git add - adds files to the .git repository
-git commit - saves files to .git repository
-
-    Parts of a Commit:
-    Author
-    Time Stamp
-    Message
-    Unique ID
-    Changes (files/lines)
-
-    Git Workflow:
-    Modify > Add > Commit
-
-Git Commands:
-status - shows status
-diff - what is dirty
-log - shows all commits

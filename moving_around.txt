@@ -1,0 +1,689 @@
+cd repos/gitWorkshop/
+history | less
+man tail
+history | tail -r
+history -r
+history
+brew update
+clear
+cd
+ls ..
+cd ..
+cd /
+cd ...
+ls ~
+ls ./~
+ls
+cd home
+cd .
+ls -a
+ls-a
+cd repos
+pwd
+ls -l
+cd /Users/tayrichmond/
+cd pwd
+rm -rf Age\ of\ Empires\ II\ Gold/
+cd Age\ of\ Empires\ II\ Gold/
+cd -a
+man ls
+cd .nchsoftware
+ls -f
+ls man
+ls -lrt
+ls -rt
+ls -t
+ls -r
+ls -lt
+echo ~
+which ~
+rmdir temp/
+ls temp/
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git --version
+brew link --overwrite git
+brew link git
+brew install git
+echo $PATH
+subl /etc/paths
+echo $EDITOR 
+mv gitWorkshopNotes.txt repos/gitWorkshop/
+brew info fish
+brew upgrade
+fish_update_completions 
+cd gitWorkshop/
+cd reps
+exec bash
+clear 
+uname
+mkdir gitWorkshop
+subl gitWorkshopNotes.txt
+brew doctor
+sudo chmod 755 description
+cd /usr/local/share/git-core/templates/
+sudo chmod 777 description 
+./description
+nano description 
+cd templates/
+cd git-core/
+cd /usr/local/share/
+sudo chmod 777 git-core/
+exit
+rm -rf jasonTest/
+rmdir jasonTest/
+rm -rf .git/
+rmdir -rf .git/
+rmdir .git/
+rm .git
+ls -A
+git init
+cd .. jasonLinkTest/
+mkdir jasonLinkTest
+git checkout
+git checkout jason
+git checkout master
+git st
+git commit -a -m "First commit on jason branch"
+git add -A
+touch file5 file6
+git branch
+git checkout -b jason
+git commit -a -m "first commit"
+touch file1 file2 file3
+cd jasonTest/
+mkdir jasonTest
+man git
+subl ~/.config/fish/config.fish
+subl deck.html
+rm -rf treehouse_clone/
+cd repos/treehouse/
+git branch -D new_freature
+git brand -D new_freature
+sudo apt-get install git-flow
+git flow init
+cd treehouse/
+git push treehouse_clone
+git push
+git commit -a -m "Make file1 consistent with the new_freature version of file2"
+nano file1
+~/repos/treehouse
+git reset --hard
+git pull origin new_freature
+git commit
+git add file2
+nano file2
+git pullorigin new_freature
+git commit -a -m "Edit file2 some more."
+cd ~/repos/treehouse_clone/
+git commit -a -m "Only one exclamation point please."
+commit -a -m "Only one exclamation point please."
+git log
+git checkout new_freature
+git push origin new_freature
+git push origin new_feature
+git commit -a -m "Edit file2 for new_feature"
+git checkout -b new_freature
+cd treehouse_clone/
+git remote
+git remote add treehouse_clone ~/repos/treehouse_clone/
+cd ~/repos/treehouse
+git clone ~/repos/treehouse/ treehouse_clone
+git clone ~/repos/treehouse/
+which
+git add file1
+git merge foo_feature
+git commit -a -m "Added good sir to file1"
+git checkout master 
+git commit -a -m "Added dawg to file1"
+git checkout foo_feature 
+git commit -a -m "Added text to README within foo_feature"
+nano README
+git checkout foo_feature
+git commit -a -m "Added text to README to see merging conflicts"
+commit -a -m "Added text to README to see merge conflicts"
+rm index.lock
+cd .git
+rm /User/tayrichmond/repos/treehouse/.git/index.lock
+git commit README 
+git branch -D bar_feature
+git chechout master
+git checkout -b bar_feature
+git status
+git commit -m "Added text to file3 on foo_feature branch"
+git add file3
+add file3
+nano file3
+git branch foo_feature
+which fish
+cat file2
+cat file1
+cat file
+git checkout 759d
+git checkou 759d
+git commit -m "Added text to file2"
+git commit -m "Added text to file1"
+git commit -m 
+nano file1 
+git commit -a -m "Initial commit of aditional files"
+git add file2 file3
+git add file
+touch file3
+touch file2
+touch file1
+git commit -a -m "Added person goal to README file."
+git config --global user.name 'Taylor Richmond'
+git config --global user.email 'taylorichmond@gmail.com'
+export EDITOR=/usr/bin/nano
+chsh -s /bin/bash
+which nano
+env
+git add README
+cl
+mkdir treehouse
+mv javascript-and-jquery-jul-2014/ guessingGame/ theDragon/ codeFellowsStuff/
+mv race/ codeFellowsStuff/
+rm -rf newProjects/
+rm -r newProjects/
+cat index.html 
+cat in
+cd newProjects/
+ls newProjects/
+ls new
+cd codeFellowsStuff/
+cd cod
+cd repos/
+cd repos/q
+cd rep
+git commit -m 'add image addresses'
+cd theDragon
+open index.html 
+mv co guessThis.html
+mv co guessThis.html codeFellowsStuff/
+open co
+mv animal.html codeFellowsStuff/
+mv Guess\ This.html co
+rm Hello,\ World! 
+open Hello,\ World! 
+mv deck.html codeFellowsStuff/
+mv http-::www.leewiart.com:userfiles:upload:exresmodule:resdetail:837:da81d9a1f8634bee8fad31629fc9a0ea_org.jpg.webloc  theDragon/
+mv http-::stuffpoint.com:dragons:image:120536:cave-dragon-wallpaper:.webloc  theDragon/
+rm inputs.html 
+subl inputs.html
+subl inputs.html 
+mv magic.html codeFellowsStuff/
+subl magic.html 
+mv foundations1NotesDay1.docx codeFellowsStuff/
+mv notes\ day\ 1.docx foundations1NotesDay1.docx
+open notes\ day\ 1.docx 
+subl notes\ day\ 1.docx 
+mv rebuil-site.html codeFellowsStuff/
+subl rebuil-site.html 
+mv tree.html codeFellowsStuff/
+subl tree.html
+rm testfile1 
+mkdir codeFellowsStuff
+rm theDragon1.html 
+subl theDragon.html
+subl theDragon1.html 
+mv theDragon1.html theDragon/
+mv theDragon.html theDragon
+git branch -d newCountingFeature 
+git ll
+git checkout newCountingFeature 
+git commit -m 'delete test files'
+rm testfile1 testfile2 testfile3
+git merge newCountingFeature 
+git commit -m 'create testfiles'
+touch testfile2 testfile3
+touch testfile1
+git branch newCountingFeature
+cd guessingGame/
+git add ./
+git push -u origin master
+git remote add origin https://github.com/tayrichmond/repos.git
+git commit -m 'make changes to testfile1 and commit race the rabbit'
+git commit -m 'commit race the rabbit'
+git add race-the-rabbit2.html 
+cd race/
+git add race/
+git add testfile1 race/
+cd -
+open race-the-rabbit2.html 
+open ra
+cd race
+nano race/
+nano race
+nano testfile1 
+git commit -m 'create testfile1'
+git add testfile1 
+git stat
+git commit -m "initial commit"
+git comit
+git update
+echo $PATH 
+curl -fsSL http://git.io/beJs | ruby
+chsh -s /usr/local/bin/fish
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew install fish
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
+open Chrome
+cd Applications/
+cd Desktop/
+open Problem\ Set\ 0.docx 
+Word Problem\ Set\ 0.docx 
+cd Documents/
+word
+open repos
+kill Google\ Chrome
+kill Google/ Chrome
+sl
+open guessing.html
+cd repos/guessingGame
+git remote add origin https://github.com/tayrichmond/guessing-game.git
+git commit -m "first commit. Not fully styilized, but a working game."
+git add .
+git push -u origin master https://github.com/tayrichmond/guessing-game
+git commit -m "commiting files"
+git commit .
+git push - u origin master
+git remote -v
+git remote add origion
+git commit -m "first commit. Not fully stylized, but a completely working game."
+git add README.md
+touch README.md
+open guessing.html 
+mv --help
+mv jquery-2.1.1.js repos/jquery-2.1.1.js
+cp jquery-2.1.1.js Users/tayrichmond/repos/jquery-2.1.1.js
+mv repos jquery-2.1.1.js
+mv jquery-2.1.1.js repos
+subl .
+subl theDragon
+open guessing.js
+touch guessing.css
+touch guessing.js
+touch guessing.html
+mkdir guessingGame
+subl deck.html 
+git remote add origin https://github.com/tayrichmond/theDragon.git
+git commit -m "Commiting again"
+git add
+get remote
+git commit -m "first commit"
+open theDragonDoc.html 
+open theDragon.html 
+touch theDragon.css
+touch theDragonDoc.html
+cd theDragon/
+mkdir theDragon
+open th
+subl theDragon.html 
+open The\ Dragon.html 
+subl The\ Dragon.html 
+open magic.html 
+open race
+cd javascript-and-jquery-jul-2014/
+git remote add origin https://github.com/tayrichmond/race-the-rabbit.git
+git commit -m "first post"
+cd repos/race
+git commit -m
+git commit -m .
+git remote add origin
+git push -u
+get commit -m race
+get status
+cd rac
+cd Documents
+touch race-the-rabbit.html
+mkdir race
+subl index.html 
+touch index.html
+mkdir newProjects
+mv repos /Users/tayrichmond
+clear
+ls -l
+ls -rt
+ls | less
+ls -t
+subl moving_around.txt 
+ls
+history > moving_around.txt
+cd repos/gitWorkshop/
+history | less
+man tail
+history | tail -r
+history -r
+history
+brew update
+cd
+ls ..
+cd ..
+cd /
+cd ...
+ls ~
+ls ./~
+cd home
+cd .
+ls -a
+ls-a
+cd repos
+pwd
+cd /Users/tayrichmond/
+cd pwd
+rm -rf Age\ of\ Empires\ II\ Gold/
+cd Age\ of\ Empires\ II\ Gold/
+cd -a
+man ls
+cd .nchsoftware
+ls -f
+ls man
+ls -lrt
+ls -r
+ls -lt
+echo ~
+which ~
+rmdir temp/
+ls temp/
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git --version
+brew link --overwrite git
+brew link git
+brew install git
+echo $PATH
+subl /etc/paths
+echo $EDITOR 
+mv gitWorkshopNotes.txt repos/gitWorkshop/
+brew info fish
+brew upgrade
+fish_update_completions 
+cd gitWorkshop/
+cd reps
+exec bash
+clear 
+uname
+mkdir gitWorkshop
+subl gitWorkshopNotes.txt
+brew doctor
+sudo chmod 755 description
+cd /usr/local/share/git-core/templates/
+sudo chmod 777 description 
+./description
+nano description 
+cd templates/
+cd git-core/
+cd /usr/local/share/
+sudo chmod 777 git-core/
+exit
+rm -rf jasonTest/
+rmdir jasonTest/
+rm -rf .git/
+rmdir -rf .git/
+rmdir .git/
+rm .git
+ls -A
+git init
+cd .. jasonLinkTest/
+mkdir jasonLinkTest
+git checkout
+git checkout jason
+git checkout master
+git st
+git commit -a -m "First commit on jason branch"
+git add -A
+touch file5 file6
+git branch
+git checkout -b jason
+git commit -a -m "first commit"
+touch file1 file2 file3
+cd jasonTest/
+mkdir jasonTest
+man git
+subl ~/.config/fish/config.fish
+subl deck.html
+rm -rf treehouse_clone/
+cd repos/treehouse/
+git branch -D new_freature
+git brand -D new_freature
+sudo apt-get install git-flow
+git flow init
+cd treehouse/
+git push treehouse_clone
+git push
+git commit -a -m "Make file1 consistent with the new_freature version of file2"
+nano file1
+~/repos/treehouse
+git reset --hard
+git pull origin new_freature
+git commit
+git add file2
+nano file2
+git pullorigin new_freature
+git commit -a -m "Edit file2 some more."
+cd ~/repos/treehouse_clone/
+git commit -a -m "Only one exclamation point please."
+commit -a -m "Only one exclamation point please."
+git log
+git checkout new_freature
+git push origin new_freature
+git push origin new_feature
+git commit -a -m "Edit file2 for new_feature"
+git checkout -b new_freature
+cd treehouse_clone/
+git remote
+git remote add treehouse_clone ~/repos/treehouse_clone/
+cd ~/repos/treehouse
+git clone ~/repos/treehouse/ treehouse_clone
+git clone ~/repos/treehouse/
+which
+git add file1
+git merge foo_feature
+git commit -a -m "Added good sir to file1"
+git checkout master 
+git commit -a -m "Added dawg to file1"
+git checkout foo_feature 
+git commit -a -m "Added text to README within foo_feature"
+nano README
+git checkout foo_feature
+git commit -a -m "Added text to README to see merging conflicts"
+commit -a -m "Added text to README to see merge conflicts"
+rm index.lock
+cd .git
+rm /User/tayrichmond/repos/treehouse/.git/index.lock
+git commit README 
+git branch -D bar_feature
+git chechout master
+git checkout -b bar_feature
+git status
+git commit -m "Added text to file3 on foo_feature branch"
+git add file3
+add file3
+nano file3
+git branch foo_feature
+which fish
+cat file2
+cat file1
+cat file
+git checkout 759d
+git checkou 759d
+git commit -m "Added text to file2"
+git commit -m "Added text to file1"
+git commit -m 
+nano file1 
+git commit -a -m "Initial commit of aditional files"
+git add file2 file3
+git add file
+touch file3
+touch file2
+touch file1
+git commit -a -m "Added person goal to README file."
+git config --global user.name 'Taylor Richmond'
+git config --global user.email 'taylorichmond@gmail.com'
+export EDITOR=/usr/bin/nano
+chsh -s /bin/bash
+which nano
+env
+git add README
+cl
+mkdir treehouse
+mv javascript-and-jquery-jul-2014/ guessingGame/ theDragon/ codeFellowsStuff/
+mv race/ codeFellowsStuff/
+rm -rf newProjects/
+rm -r newProjects/
+cat index.html 
+cat in
+cd newProjects/
+ls newProjects/
+ls new
+cd codeFellowsStuff/
+cd cod
+cd repos/
+cd repos/q
+cd rep
+git commit -m 'add image addresses'
+cd theDragon
+open index.html 
+mv co guessThis.html
+mv co guessThis.html codeFellowsStuff/
+open co
+mv animal.html codeFellowsStuff/
+mv Guess\ This.html co
+rm Hello,\ World! 
+open Hello,\ World! 
+mv deck.html codeFellowsStuff/
+mv http-::www.leewiart.com:userfiles:upload:exresmodule:resdetail:837:da81d9a1f8634bee8fad31629fc9a0ea_org.jpg.webloc  theDragon/
+mv http-::stuffpoint.com:dragons:image:120536:cave-dragon-wallpaper:.webloc  theDragon/
+rm inputs.html 
+subl inputs.html
+subl inputs.html 
+mv magic.html codeFellowsStuff/
+subl magic.html 
+mv foundations1NotesDay1.docx codeFellowsStuff/
+mv notes\ day\ 1.docx foundations1NotesDay1.docx
+open notes\ day\ 1.docx 
+subl notes\ day\ 1.docx 
+mv rebuil-site.html codeFellowsStuff/
+subl rebuil-site.html 
+mv tree.html codeFellowsStuff/
+subl tree.html
+rm testfile1 
+mkdir codeFellowsStuff
+rm theDragon1.html 
+subl theDragon.html
+subl theDragon1.html 
+mv theDragon1.html theDragon/
+mv theDragon.html theDragon
+git branch -d newCountingFeature 
+git ll
+git checkout newCountingFeature 
+git commit -m 'delete test files'
+rm testfile1 testfile2 testfile3
+git merge newCountingFeature 
+git commit -m 'create testfiles'
+touch testfile2 testfile3
+touch testfile1
+git branch newCountingFeature
+cd guessingGame/
+git add ./
+git push -u origin master
+git remote add origin https://github.com/tayrichmond/repos.git
+git commit -m 'make changes to testfile1 and commit race the rabbit'
+git commit -m 'commit race the rabbit'
+git add race-the-rabbit2.html 
+cd race/
+git add race/
+git add testfile1 race/
+cd -
+open race-the-rabbit2.html 
+open ra
+cd race
+nano race/
+nano race
+nano testfile1 
+git commit -m 'create testfile1'
+git add testfile1 
+git stat
+git commit -m "initial commit"
+git comit
+git update
+echo $PATH 
+curl -fsSL http://git.io/beJs | ruby
+chsh -s /usr/local/bin/fish
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew install fish
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
+open Chrome
+cd Applications/
+cd Desktop/
+open Problem\ Set\ 0.docx 
+Word Problem\ Set\ 0.docx 
+cd Documents/
+word
+open repos
+kill Google\ Chrome
+kill Google/ Chrome
+sl
+open guessing.html
+cd repos/guessingGame
+git remote add origin https://github.com/tayrichmond/guessing-game.git
+git commit -m "first commit. Not fully styilized, but a working game."
+git add .
+git push -u origin master https://github.com/tayrichmond/guessing-game
+git commit -m "commiting files"
+git commit .
+git push - u origin master
+git remote -v
+git remote add origion
+git commit -m "first commit. Not fully stylized, but a completely working game."
+git add README.md
+touch README.md
+open guessing.html 
+mv --help
+mv jquery-2.1.1.js repos/jquery-2.1.1.js
+cp jquery-2.1.1.js Users/tayrichmond/repos/jquery-2.1.1.js
+mv repos jquery-2.1.1.js
+mv jquery-2.1.1.js repos
+subl .
+subl theDragon
+open guessing.js
+touch guessing.css
+touch guessing.js
+touch guessing.html
+mkdir guessingGame
+subl deck.html 
+git remote add origin https://github.com/tayrichmond/theDragon.git
+git commit -m "Commiting again"
+git add
+get remote
+git commit -m "first commit"
+open theDragonDoc.html 
+open theDragon.html 
+touch theDragon.css
+touch theDragonDoc.html
+cd theDragon/
+mkdir theDragon
+open th
+subl theDragon.html 
+open The\ Dragon.html 
+subl The\ Dragon.html 
+open magic.html 
+open race
+cd javascript-and-jquery-jul-2014/
+git remote add origin https://github.com/tayrichmond/race-the-rabbit.git
+git commit -m "first post"
+cd repos/race
+git commit -m
+git commit -m .
+git remote add origin
+git push -u
+get commit -m race
+get status
+cd rac
+cd Documents
+touch race-the-rabbit.html
+mkdir race
+subl index.html 
+touch index.html
+mkdir newProjects
+mv repos /Users/tayrichmond

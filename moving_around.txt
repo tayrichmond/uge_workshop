@@ -47,24 +47,24 @@ brew link git
 brew install git
 echo $PATH
 subl /etc/paths
-echo $EDITOR 
+echo $EDITOR
 mv gitWorkshopNotes.txt repos/gitWorkshop/
 brew info fish
 brew upgrade
-fish_update_completions 
+fish_update_completions
 cd gitWorkshop/
 cd reps
 exec bash
-clear 
+clear
 uname
 mkdir gitWorkshop
 subl gitWorkshopNotes.txt
 brew doctor
 sudo chmod 755 description
 cd /usr/local/share/git-core/templates/
-sudo chmod 777 description 
+sudo chmod 777 description
 ./description
-nano description 
+nano description
 cd templates/
 cd git-core/
 cd /usr/local/share/
@@ -134,9 +134,9 @@ which
 git add file1
 git merge foo_feature
 git commit -a -m "Added good sir to file1"
-git checkout master 
+git checkout master
 git commit -a -m "Added dawg to file1"
-git checkout foo_feature 
+git checkout foo_feature
 git commit -a -m "Added text to README within foo_feature"
 nano README
 git checkout foo_feature
@@ -145,7 +145,7 @@ commit -a -m "Added text to README to see merge conflicts"
 rm index.lock
 cd .git
 rm /User/tayrichmond/repos/treehouse/.git/index.lock
-git commit README 
+git commit README
 git branch -D bar_feature
 git chechout master
 git checkout -b bar_feature
@@ -163,8 +163,8 @@ git checkout 759d
 git checkou 759d
 git commit -m "Added text to file2"
 git commit -m "Added text to file1"
-git commit -m 
-nano file1 
+git commit -m
+nano file1
 git commit -a -m "Initial commit of aditional files"
 git add file2 file3
 git add file
@@ -185,7 +185,7 @@ mv javascript-and-jquery-jul-2014/ guessingGame/ theDragon/ codeFellowsStuff/
 mv race/ codeFellowsStuff/
 rm -rf newProjects/
 rm -r newProjects/
-cat index.html 
+cat index.html
 cat in
 cd newProjects/
 ls newProjects/
@@ -197,43 +197,43 @@ cd repos/q
 cd rep
 git commit -m 'add image addresses'
 cd theDragon
-open index.html 
+open index.html
 mv co guessThis.html
 mv co guessThis.html codeFellowsStuff/
 open co
 mv animal.html codeFellowsStuff/
 mv Guess\ This.html co
-rm Hello,\ World! 
-open Hello,\ World! 
+rm Hello,\ World!
+open Hello,\ World!
 mv deck.html codeFellowsStuff/
 mv http-::www.leewiart.com:userfiles:upload:exresmodule:resdetail:837:da81d9a1f8634bee8fad31629fc9a0ea_org.jpg.webloc  theDragon/
 mv http-::stuffpoint.com:dragons:image:120536:cave-dragon-wallpaper:.webloc  theDragon/
-rm inputs.html 
+rm inputs.html
 subl inputs.html
-subl inputs.html 
+subl inputs.html
 mv magic.html codeFellowsStuff/
-subl magic.html 
+subl magic.html
 mv foundations1NotesDay1.docx codeFellowsStuff/
 mv notes\ day\ 1.docx foundations1NotesDay1.docx
-open notes\ day\ 1.docx 
-subl notes\ day\ 1.docx 
+open notes\ day\ 1.docx
+subl notes\ day\ 1.docx
 mv rebuil-site.html codeFellowsStuff/
-subl rebuil-site.html 
+subl rebuil-site.html
 mv tree.html codeFellowsStuff/
 subl tree.html
-rm testfile1 
+rm testfile1
 mkdir codeFellowsStuff
-rm theDragon1.html 
+rm theDragon1.html
 subl theDragon.html
-subl theDragon1.html 
+subl theDragon1.html
 mv theDragon1.html theDragon/
 mv theDragon.html theDragon
-git branch -d newCountingFeature 
+git branch -d newCountingFeature
 git ll
-git checkout newCountingFeature 
+git checkout newCountingFeature
 git commit -m 'delete test files'
 rm testfile1 testfile2 testfile3
-git merge newCountingFeature 
+git merge newCountingFeature
 git commit -m 'create testfiles'
 touch testfile2 testfile3
 touch testfile1
@@ -244,24 +244,24 @@ git push -u origin master
 git remote add origin https://github.com/tayrichmond/repos.git
 git commit -m 'make changes to testfile1 and commit race the rabbit'
 git commit -m 'commit race the rabbit'
-git add race-the-rabbit2.html 
+git add race-the-rabbit2.html
 cd race/
 git add race/
 git add testfile1 race/
 cd -
-open race-the-rabbit2.html 
+open race-the-rabbit2.html
 open ra
 cd race
 nano race/
 nano race
-nano testfile1 
+nano testfile1
 git commit -m 'create testfile1'
-git add testfile1 
+git add testfile1
 git stat
 git commit -m "initial commit"
 git comit
 git update
-echo $PATH 
+echo $PATH
 curl -fsSL http://git.io/beJs | ruby
 chsh -s /usr/local/bin/fish
 echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
@@ -270,8 +270,8 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
 open Chrome
 cd Applications/
 cd Desktop/
-open Problem\ Set\ 0.docx 
-Word Problem\ Set\ 0.docx 
+open Problem\ Set\ 0.docx
+Word Problem\ Set\ 0.docx
 cd Documents/
 word
 open repos
@@ -292,7 +292,7 @@ git remote add origion
 git commit -m "first commit. Not fully stylized, but a completely working game."
 git add README.md
 touch README.md
-open guessing.html 
+open guessing.html
 mv --help
 mv jquery-2.1.1.js repos/jquery-2.1.1.js
 cp jquery-2.1.1.js Users/tayrichmond/repos/jquery-2.1.1.js
@@ -305,23 +305,23 @@ touch guessing.css
 touch guessing.js
 touch guessing.html
 mkdir guessingGame
-subl deck.html 
+subl deck.html
 git remote add origin https://github.com/tayrichmond/theDragon.git
 git commit -m "Commiting again"
 git add
 get remote
 git commit -m "first commit"
-open theDragonDoc.html 
-open theDragon.html 
+open theDragonDoc.html
+open theDragon.html
 touch theDragon.css
 touch theDragonDoc.html
 cd theDragon/
 mkdir theDragon
 open th
-subl theDragon.html 
-open The\ Dragon.html 
-subl The\ Dragon.html 
-open magic.html 
+subl theDragon.html
+open The\ Dragon.html
+subl The\ Dragon.html
+open magic.html
 open race
 cd javascript-and-jquery-jul-2014/
 git remote add origin https://github.com/tayrichmond/race-the-rabbit.git
@@ -337,7 +337,7 @@ cd rac
 cd Documents
 touch race-the-rabbit.html
 mkdir race
-subl index.html 
+subl index.html
 touch index.html
 mkdir newProjects
 mv repos /Users/tayrichmond
@@ -346,7 +346,7 @@ ls -l
 ls -rt
 ls | less
 ls -t
-subl moving_around.txt 
+subl moving_around.txt
 ls
 history > moving_around.txt
 cd repos/gitWorkshop/
@@ -393,24 +393,24 @@ brew link git
 brew install git
 echo $PATH
 subl /etc/paths
-echo $EDITOR 
+echo $EDITOR
 mv gitWorkshopNotes.txt repos/gitWorkshop/
 brew info fish
 brew upgrade
-fish_update_completions 
+fish_update_completions
 cd gitWorkshop/
 cd reps
 exec bash
-clear 
+clear
 uname
 mkdir gitWorkshop
 subl gitWorkshopNotes.txt
 brew doctor
 sudo chmod 755 description
 cd /usr/local/share/git-core/templates/
-sudo chmod 777 description 
+sudo chmod 777 description
 ./description
-nano description 
+nano description
 cd templates/
 cd git-core/
 cd /usr/local/share/
@@ -480,9 +480,9 @@ which
 git add file1
 git merge foo_feature
 git commit -a -m "Added good sir to file1"
-git checkout master 
+git checkout master
 git commit -a -m "Added dawg to file1"
-git checkout foo_feature 
+git checkout foo_feature
 git commit -a -m "Added text to README within foo_feature"
 nano README
 git checkout foo_feature
@@ -491,7 +491,7 @@ commit -a -m "Added text to README to see merge conflicts"
 rm index.lock
 cd .git
 rm /User/tayrichmond/repos/treehouse/.git/index.lock
-git commit README 
+git commit README
 git branch -D bar_feature
 git chechout master
 git checkout -b bar_feature
@@ -509,8 +509,8 @@ git checkout 759d
 git checkou 759d
 git commit -m "Added text to file2"
 git commit -m "Added text to file1"
-git commit -m 
-nano file1 
+git commit -m
+nano file1
 git commit -a -m "Initial commit of aditional files"
 git add file2 file3
 git add file
@@ -531,7 +531,7 @@ mv javascript-and-jquery-jul-2014/ guessingGame/ theDragon/ codeFellowsStuff/
 mv race/ codeFellowsStuff/
 rm -rf newProjects/
 rm -r newProjects/
-cat index.html 
+cat index.html
 cat in
 cd newProjects/
 ls newProjects/
@@ -543,43 +543,43 @@ cd repos/q
 cd rep
 git commit -m 'add image addresses'
 cd theDragon
-open index.html 
+open index.html
 mv co guessThis.html
 mv co guessThis.html codeFellowsStuff/
 open co
 mv animal.html codeFellowsStuff/
 mv Guess\ This.html co
-rm Hello,\ World! 
-open Hello,\ World! 
+rm Hello,\ World!
+open Hello,\ World!
 mv deck.html codeFellowsStuff/
 mv http-::www.leewiart.com:userfiles:upload:exresmodule:resdetail:837:da81d9a1f8634bee8fad31629fc9a0ea_org.jpg.webloc  theDragon/
 mv http-::stuffpoint.com:dragons:image:120536:cave-dragon-wallpaper:.webloc  theDragon/
-rm inputs.html 
+rm inputs.html
 subl inputs.html
-subl inputs.html 
+subl inputs.html
 mv magic.html codeFellowsStuff/
-subl magic.html 
+subl magic.html
 mv foundations1NotesDay1.docx codeFellowsStuff/
 mv notes\ day\ 1.docx foundations1NotesDay1.docx
-open notes\ day\ 1.docx 
-subl notes\ day\ 1.docx 
+open notes\ day\ 1.docx
+subl notes\ day\ 1.docx
 mv rebuil-site.html codeFellowsStuff/
-subl rebuil-site.html 
+subl rebuil-site.html
 mv tree.html codeFellowsStuff/
 subl tree.html
-rm testfile1 
+rm testfile1
 mkdir codeFellowsStuff
-rm theDragon1.html 
+rm theDragon1.html
 subl theDragon.html
-subl theDragon1.html 
+subl theDragon1.html
 mv theDragon1.html theDragon/
 mv theDragon.html theDragon
-git branch -d newCountingFeature 
+git branch -d newCountingFeature
 git ll
-git checkout newCountingFeature 
+git checkout newCountingFeature
 git commit -m 'delete test files'
 rm testfile1 testfile2 testfile3
-git merge newCountingFeature 
+git merge newCountingFeature
 git commit -m 'create testfiles'
 touch testfile2 testfile3
 touch testfile1
@@ -590,24 +590,24 @@ git push -u origin master
 git remote add origin https://github.com/tayrichmond/repos.git
 git commit -m 'make changes to testfile1 and commit race the rabbit'
 git commit -m 'commit race the rabbit'
-git add race-the-rabbit2.html 
+git add race-the-rabbit2.html
 cd race/
 git add race/
 git add testfile1 race/
 cd -
-open race-the-rabbit2.html 
+open race-the-rabbit2.html
 open ra
 cd race
 nano race/
 nano race
-nano testfile1 
+nano testfile1
 git commit -m 'create testfile1'
-git add testfile1 
+git add testfile1
 git stat
 git commit -m "initial commit"
 git comit
 git update
-echo $PATH 
+echo $PATH
 curl -fsSL http://git.io/beJs | ruby
 chsh -s /usr/local/bin/fish
 echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
@@ -616,8 +616,8 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
 open Chrome
 cd Applications/
 cd Desktop/
-open Problem\ Set\ 0.docx 
-Word Problem\ Set\ 0.docx 
+open Problem\ Set\ 0.docx
+Word Problem\ Set\ 0.docx
 cd Documents/
 word
 open repos
@@ -638,7 +638,7 @@ git remote add origion
 git commit -m "first commit. Not fully stylized, but a completely working game."
 git add README.md
 touch README.md
-open guessing.html 
+open guessing.html
 mv --help
 mv jquery-2.1.1.js repos/jquery-2.1.1.js
 cp jquery-2.1.1.js Users/tayrichmond/repos/jquery-2.1.1.js
@@ -651,23 +651,23 @@ touch guessing.css
 touch guessing.js
 touch guessing.html
 mkdir guessingGame
-subl deck.html 
+subl deck.html
 git remote add origin https://github.com/tayrichmond/theDragon.git
 git commit -m "Commiting again"
 git add
 get remote
 git commit -m "first commit"
-open theDragonDoc.html 
-open theDragon.html 
+open theDragonDoc.html
+open theDragon.html
 touch theDragon.css
 touch theDragonDoc.html
 cd theDragon/
 mkdir theDragon
 open th
-subl theDragon.html 
-open The\ Dragon.html 
-subl The\ Dragon.html 
-open magic.html 
+subl theDragon.html
+open The\ Dragon.html
+subl The\ Dragon.html
+open magic.html
 open race
 cd javascript-and-jquery-jul-2014/
 git remote add origin https://github.com/tayrichmond/race-the-rabbit.git
@@ -683,7 +683,7 @@ cd rac
 cd Documents
 touch race-the-rabbit.html
 mkdir race
-subl index.html 
+subl index.html
 touch index.html
 mkdir newProjects
 mv repos /Users/tayrichmond
